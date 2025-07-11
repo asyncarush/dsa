@@ -17,7 +17,6 @@ void reverseString(int pos, const string& s) {
     }
     reverseString(pos+1, s);
     cout << s[pos];
-
 }
 
 void reverseArray(vector<int> &arr) {
