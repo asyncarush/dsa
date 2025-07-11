@@ -12,6 +12,7 @@ int f(vector<int>& nums, int n) {
 
     return max(pick, notPick);
 }
+
 int rob(vector<int>& nums) {
     int size = nums.size()-1;
     return f(nums, size);
